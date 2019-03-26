@@ -1,0 +1,43 @@
+.grid {
+  margin: auto;
+  display: grid;
+  padding: 20px;
+  width: 580px;
+  grid-template-columns: repeat(7,80px);
+  grid-template-rows: repeat(6,80px);
+  border: solid;
+  grid-row-gap: 5px;
+  justify-content: center;
+  box-shadow: 0 0 15px blue
+ 
+}
+
+.dot {
+  height: 50px;
+  width: 50px;
+  background-color: orange;
+  border-radius: 20%;
+  display: inline-block;
+  padding: 10px;
+  box-shadow: 0 0 5px black;
+}
+
+.green {
+  height: 50px;
+  width: 50px;
+  background-color: orange;
+  border-radius: 20%;
+  display: inline-block;
+  padding: 10px;
+  box-shadow: 0 0 5px green;
+}
+
+.blue {
+  height: 50px;
+  width: 50px;
+  background-color: orange;
+  border-radius: 20%;
+  display: inline-block;
+  padding: 10px;
+  box-shadow: 0 0 5px blue;
+}
